@@ -1,0 +1,103 @@
+
+.actividad_area_de_texto_memorando{
+    position: relative;
+    width: 35%;
+    top: 0;
+    left: 32.5%;
+    height: 100%;
+}
+.imagen_fondo_memorando{
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.memorando_input_para{
+    position: absolute;
+    top: 23.5%;
+    width: 82%;
+    height: 6%;
+    right: 5%;
+}
+
+.memorando_input_asunto{
+    position: absolute;
+    top: 29.5%;
+    width: 80%;
+    height: 6%;
+    right: 5%;
+}
+
+.memorando_input_para input,
+.memorando_input_asunto input{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+}
+
+.mensaje_memorando{
+    position: relative;
+    width: 92%;
+    height: 50%;
+    top: 40%;
+    left: 4%;
+}
+
+.mensaje_memorando textarea{
+    background: transparent;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    overflow: auto;
+    line-height: 1.5;
+}
+
+@media only screen and (orientation:landscape) and (min-device-width: 768px) and (max-device-width: 1024px){
+
+    .actividad_area_de_texto_memorando{
+        width: 50%;
+        left: 25%;
+    }
+
+    .mensaje_memorando textarea{
+        font-size: 1.7vw;
+        line-height: 1.4;
+    }
+
+    .memorando_input_para input,
+    .memorando_input_asunto input{
+        font-size: 1.5vw;
+    }
+
+}
+
+@media only screen and (orientation:portrait) and (min-device-width: 768px) and (max-device-width: 1024px){
+
+    .actividad_area_de_texto_memorando{
+        width: 70%;
+        top: 15%;
+        left: 15%;
+        height: 75%;
+    }
+
+    .memorando_input_para input,
+    .memorando_input_asunto input{
+        font-size: 2.2vw;
+    }
+
+    .mensaje_memorando textarea{
+        font-size: 2.4vw;
+        line-height: 1.7;
+    }
+
+}

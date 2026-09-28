@@ -1,0 +1,33 @@
+
+.titulo_resultado_area_de_texto, .texto_diligenciado_txt, .titulo_introduccion_txt, .titulo_nudo_txt, .titulo_desenlace_txt{
+    font-family: arial, sans-serif;
+}
+
+.resultado_cuento_area_texto{
+    width: 50%;
+    left: 25%;
+    position: relative;
+    top: 35px;
+    margin-bottom: 4%;
+    margin-top: 20px;
+}
+
+.resultado_cuento_area_texto > div p{
+    color: #0b5d77;
+    margin: 0;
+    font-size: 16px;
+}
+
+.resultado_cuento_area_texto > div .titulo_introduccion_txt,
+.resultado_cuento_area_texto > div .titulo_nudo_txt,
+.resultado_cuento_area_texto > div .titulo_desenlace_txt{
+    padding-top: 3%;
+}
+/*estilos para tablet vertical view*/
+@media only screen and (orientation:portrait) and (min-device-width: 768px) and (max-device-width: 1024px){
+
+    .resultado_cuento_area_texto{
+        width: 70%;
+        left: 15%;
+    }
+}

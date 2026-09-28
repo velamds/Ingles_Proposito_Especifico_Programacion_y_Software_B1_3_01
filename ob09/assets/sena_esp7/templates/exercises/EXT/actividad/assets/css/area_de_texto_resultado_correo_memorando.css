@@ -1,0 +1,34 @@
+
+.titulo_resultado_area_de_texto, .texto_diligenciado_txt, .titulo_asunto_txt, .titulo_para_txt{
+    font-family: arial, sans-serif;
+}
+
+.resultado_correo_memorando{
+    width: 50%;
+    left: 25%;
+    position: relative;
+    top: 5%;
+    margin-bottom: 4%;
+    margin-top: 20px;
+}
+
+.resultado_correo_memorando > div p{
+    color: #0b5d77;
+    margin: 0;
+    font-size: 16px;
+}
+
+.resultado_correo_memorando > div .titulo_para_txt,
+.resultado_correo_memorando > div .titulo_asunto_txt{
+    padding-top: 3%;
+}
+@media only screen and (orientation:portrait) and (min-device-width: 768px) and (max-device-width: 1024px){
+
+    .resultado_correo_memorando{
+        width: 70%;
+        left: 15%;
+        position: relative;
+        top: 5%;
+        margin-bottom: 4%;
+    }
+}

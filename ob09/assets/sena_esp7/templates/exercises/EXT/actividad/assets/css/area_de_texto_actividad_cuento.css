@@ -1,0 +1,90 @@
+
+.actividad_area_de_texto_cuento{
+    position: relative;
+    width: 70%;
+    top: 0;
+    left: 10%;
+    height: 100%;
+}
+.imagen_fondo_cuento{
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.introduccion_cuento{
+    position: relative;
+    width: 39%;
+    height: 30%;
+    top: 28%;
+    left: 8%;
+}
+
+.nudo_cuento{
+    position: relative;
+    width: 39%;
+    height: 30%;
+    top: 33%;
+    left: 8%;
+}
+
+.desenlace_cuento{
+    position: relative;
+    width: 39%;
+    height: 60%;
+    top: -44%;
+    left: 53%;
+}
+
+.introduccion_cuento textarea,
+.nudo_cuento textarea,
+.desenlace_cuento textarea{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    overflow: auto;
+    background-color: transparent;
+    line-height: 1.2;
+}
+
+
+@media only screen and (orientation:landscape) and (min-device-width: 768px) and (max-device-width: 1024px){
+
+    .actividad_area_de_texto_cuento{
+        width: 80%;
+        left: 2%;
+    }
+
+    .introduccion_cuento textarea,
+    .nudo_cuento textarea,
+    .desenlace_cuento textarea{
+        font-size: 1.2vw;
+    }
+
+
+}
+
+@media only screen and (orientation:portrait) and (min-device-width: 768px) and (max-device-width: 1024px){
+
+    .actividad_area_de_texto_cuento{
+        width: 90%;
+        top: 30%;
+        left: 5%;
+        height: 50%;
+    }
+
+    .introduccion_cuento textarea,
+    .nudo_cuento textarea,
+    .desenlace_cuento textarea{
+        font-size: 1.2vw;
+    }
+
+}
